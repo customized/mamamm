@@ -1,0 +1,12 @@
+ipykernel==5.1.2
+pydeck
+tensorflow
+streamlit
+pillow
+pandas
+matplotlib
+numpy
+requests
+keras
+
+#Run this file with - pip3 install -r requirements.txt
