@@ -1,0 +1,18 @@
+ipykernel==5.1.2
+pydeck
+tensorflow
+streamlit
+pillow
+pandas
+matplotlib
+numpy
+requests
+Keras==2.4.3
+keras-nightly==2.5.0.dev2021032900
+Keras-Preprocessing==1.1.2
+keras-vis==0.4.1
+opencv-contrib-python==4.1.2.30
+opencv-python==4.1.2.30
+urllib3==1.24.3
+
+#Run this file with - pip3 install -r requirements.txt
