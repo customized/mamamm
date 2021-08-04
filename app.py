@@ -73,7 +73,7 @@ if uploaded_file is not None:
     st.write("Classifying...")
 
     # model2 = tf.keras.models.load_model('/content/gdrive/MyDrive/Colab_notebooks/eff_mod_Food_Localization_2.h5')
-    model2 = tf.keras.models.load_model("") #for streamlit share
+    model2 = tf.keras.models.load_model("model") #for streamlit share
     predictions_sg = model2.predict(image2)
 
     classes_sg = np.argmax(predictions_sg, axis = 1)
